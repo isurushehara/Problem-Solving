@@ -28,3 +28,16 @@ for (i = 1; i<6; i++) {
     pattern_2.append(li);
 }
 
+//PATTERN 03
+for(i = 1; i<6; i++) {
+    let li = document.createElement('li');
+    for(j = 5; j>0; j--) {
+        if(j>i) {
+            addText(li, "O");
+        } else {
+            addText(li, "X");
+        }
+    }
+    pattern_3.append(li);
+}
+
